@@ -65,7 +65,7 @@ export const Home: React.FC = () => {
             أهلاً وسهلاً
           </h2>
           <p className="text-muted-foreground">
-            ابدأ رحلتك الروحانية مع المسبحة الذكية
+            هيا ابدأ في التسبيح
           </p>
         </div>
 

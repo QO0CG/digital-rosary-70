@@ -73,7 +73,7 @@ export const Tasbih: React.FC = () => {
     <div className="min-h-screen bg-background pb-20">
       <Header title="المسبحة الإلكترونية" />
       
-      <div className="px-4 py-6 space-y-6">
+      <div className="px-4 py-4 space-y-4">
         {/* بطاقة اختيار نوع التسبيح */}
         <Card className="card-islamic">
           <div className="p-6">
@@ -125,7 +125,7 @@ export const Tasbih: React.FC = () => {
         </Card>
 
         {/* العداد الرئيسي */}
-        <div className="text-center space-y-6">
+        <div className="text-center space-y-4">
           <div className="space-y-2">
             <h2 className="text-xl font-bold dhikr-text">{currentType}</h2>
             <div className="text-sm text-muted-foreground">
@@ -147,12 +147,12 @@ export const Tasbih: React.FC = () => {
               <Button
                 size="lg"
                 onClick={increment}
-                className="btn-dhikr w-64 h-64 rounded-full text-xl font-bold relative overflow-hidden group"
+                className="btn-dhikr w-40 h-40 rounded-full text-lg font-bold relative overflow-hidden group"
               >
                 <div className="absolute inset-0 bg-white/20 rounded-full scale-0 group-active:scale-100 transition-transform duration-200" />
                 <div className="relative z-10">
-                  <div className="text-4xl mb-2">{currentCount.toLocaleString('ar-EG')}</div>
-                  <div className="text-sm opacity-80">اضغط للعد</div>
+                  <div className="text-2xl mb-1">{currentCount.toLocaleString('ar-EG')}</div>
+                  <div className="text-xs opacity-80">اضغط للعد</div>
                 </div>
               </Button>
               

@@ -135,7 +135,7 @@ export const Home: React.FC = () => {
           <div className="p-6 text-center">
             <h3 className="text-lg font-bold mb-2">ابدأ التسبيح الآن</h3>
             <p className="text-primary-foreground/80 mb-4">
-              كل تسبيحة تقربك إلى الله وتزيد من نقاطك
+              ابدأ رحلتك الروحانية معنا
             </p>
             <Link to="/tasbih">
               <div className="inline-flex items-center gap-2 bg-white/20 hover:bg-white/30 px-6 py-3 rounded-full transition-colors">

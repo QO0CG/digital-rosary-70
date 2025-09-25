@@ -74,8 +74,7 @@ export const Home: React.FC = () => {
           <div className="p-6 relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent"></div>
             <div className="relative z-10">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold glow-primary">إحصائياتي</h3>
+              <div className="flex items-center justify-end mb-4">
                 <div className="flex items-center gap-1 text-accent animate-pulse-ring">
                   <Award className="w-5 h-5 drop-shadow-glow" />
                   <span className="font-bold">المستوى {level.toLocaleString('ar-EG')}</span>

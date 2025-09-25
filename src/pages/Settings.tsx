@@ -193,23 +193,6 @@ export const Settings: React.FC = () => {
           </div>
         </Card>
 
-        {/* معلومات التطبيق */}
-        <Card className="card-islamic">
-          <div className="p-6 text-center">
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <Info className="w-5 h-5 text-primary" />
-              <h3 className="text-lg font-semibold">حول التطبيق</h3>
-            </div>
-            <div className="space-y-2 text-sm text-muted-foreground">
-              <p><strong>المسبحة الذكية</strong></p>
-              <p>الإصدار ١.٠.٠</p>
-              <p>تطبيق شامل للأذكار والتسبيح</p>
-              <p className="text-xs">
-                جميع الأذكار والأدعية مأخوذة من القرآن الكريم والسنة النبوية الشريفة
-              </p>
-            </div>
-          </div>
-        </Card>
       </div>
     </div>
   );
